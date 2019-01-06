@@ -6,7 +6,6 @@
 # Given A = [1, 2, 3], the function should return 4.
 # Given A = [-1, -3], the function should return 1.
 # Write an efficient algorithm for the following assumptions:
-#
 #         N is an integer within the range [1..100,000];
 #         each element of array A is an integer within the range
 #         [-1,000,000..1,000,000].
@@ -18,3 +17,5 @@ def solution(A):
         elif (x+1) not in A and (x+1) > 1:
             return x+1
 print(solution(sorted([1, 3, 6, 4, 1, 2])))
+
+\n
